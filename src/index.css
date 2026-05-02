@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* ── Custom Design Tokens ── */
+@theme {
+  --color-navy-950: #0a0f1e;
+  --color-navy-900: #0d1527;
+  --color-navy-800: #111d35;
+  --color-navy-700: #1a2744;
+  --color-navy-600: #243456;
+  --color-navy-500: #334d73;
+  --color-navy-400: #4a6a94;
+  --font-family-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ── Base Styles ── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--color-navy-950);
+  color: #e2e8f0;
+  overflow-x: hidden;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-navy-950);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.5);
+  border-radius: 10px;
+}
+
+/* ── Gradient Text Utility ── */
+.gradient-text {
+  background: linear-gradient(135deg, #22d3ee, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Section consistent padding ── */
+section {
+  scroll-margin-top: 80px;
+}
