@@ -2,8 +2,9 @@
 
 /* ── Custom Design Tokens ── */
 @theme {
-  --color-navy-950: #0a0f1e;
-  --color-navy-900: #0d1527;
+  --color-navy-950: #070b16;
+  --color-navy-900: #0a0f1e;
+  --color-navy-850: #0d1527;
   --color-navy-800: #111d35;
   --color-navy-700: #1a2744;
   --color-navy-600: #243456;
@@ -22,6 +23,20 @@ body {
   background-color: var(--color-navy-950);
   color: #e2e8f0;
   overflow-x: hidden;
+  selection-background-color: #06b6d4;
+  selection-color: #ffffff;
+}
+
+/* ── Custom Background Mesh & Grid ── */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+.bg-radial-shady {
+  background: radial-gradient(circle at 50% 0%, rgba(14, 165, 233, 0.08), transparent 60%);
 }
 
 /* ── Scrollbar ── */
@@ -32,13 +47,23 @@ body {
   background: var(--color-navy-950);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(100, 116, 139, 0.5);
+  background: rgba(100, 116, 139, 0.4);
   border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(14, 165, 233, 0.6);
 }
 
 /* ── Gradient Text Utility ── */
 .gradient-text {
-  background: linear-gradient(135deg, #22d3ee, #3b82f6);
+  background: linear-gradient(135deg, #38bdf8, #60a5fa, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-subtle {
+  background: linear-gradient(135deg, #f8fafc, #94a3b8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -47,4 +72,16 @@ body {
 /* ── Section consistent padding ── */
 section {
   scroll-margin-top: 80px;
+}
+
+/* ── Glassmorphism Card Utility ── */
+.glass-card {
+  background: rgba(13, 21, 39, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-card:hover {
+  border-color: rgba(56, 189, 248, 0.25);
 }
