@@ -1,5 +1,6 @@
 # Vinayak Tiwari — Portfolio Website
 
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://portfolio-mu-swart-wruiirtba2.vercel.app/)
 [![React](https://img.shields.io/badge/React-19-61DAFB.svg?logo=react&logoColor=black)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8.0-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.2-38B2AC.svg?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
@@ -7,6 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A clean, high-performance portfolio website built with **React 19**, **Tailwind CSS**, and **Framer Motion** to showcase my work across **AI systems, LLM orchestration gateways, and enterprise backend engineering**.
+
+🌐 **Live Deployment**: [https://portfolio-mu-swart-wruiirtba2.vercel.app/](https://portfolio-mu-swart-wruiirtba2.vercel.app/)
 
 ---
 
@@ -98,6 +101,7 @@ npm run build
 
 ## 📬 Contact
 
+- **Live Portfolio**: [https://portfolio-mu-swart-wruiirtba2.vercel.app/](https://portfolio-mu-swart-wruiirtba2.vercel.app/)
 - **Email**: [tiwarivinayak859@gmail.com](mailto:tiwarivinayak859@gmail.com)
 - **LinkedIn**: [linkedin.com/in/vinayak-tiwari-2357a9371](https://linkedin.com/in/vinayak-tiwari-2357a9371)
 - **GitHub**: [github.com/VinayakTiwari7](https://github.com/VinayakTiwari7)
